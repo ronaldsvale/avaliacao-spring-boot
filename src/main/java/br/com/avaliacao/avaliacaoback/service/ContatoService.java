@@ -68,6 +68,26 @@ public class ContatoService implements ContatoServiceInterface {
 				}).orElseThrow(() -> new ResourceNotFoundException("Contato não encontrado no ID: " + id));
 	}
 
+	@Override
+	public Contato update(Contato contato) {
+		return null;
+	}
+
+	@Override
+	public Contato addTipo(Long id, String tipo) {
+		return null;
+	}
+
+	@Override
+	public Contato delTipo(Long id, String tipo) {
+		return null;
+	}
+
+	@Override
+	public Contato delInformacoes(Long id, String informacoes) {
+		return null;
+	}
+
 	
 
 }

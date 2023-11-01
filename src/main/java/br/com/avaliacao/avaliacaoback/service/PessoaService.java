@@ -60,5 +60,55 @@ public class PessoaService implements PessoaServiceInterface {
 		pessoaRepository.deleteById(id);
 	}
 
+	@Override
+	public Pessoa addNome(Long id, String nome) {
+		return null;
+	}
+
+	@Override
+	public Pessoa delNome(Long id, String nome) {
+		return null;
+	}
+
+	@Override
+	public Pessoa addEndereco(Long id, String endereco) {
+		return null;
+	}
+
+	@Override
+	public Pessoa delEndereco(Long id, String endereco) {
+		return null;
+	}
+
+	@Override
+	public Pessoa addCep(Long id, String cep) {
+		return null;
+	}
+
+	@Override
+	public Pessoa delCep(Long id, String cep) {
+		return null;
+	}
+
+	@Override
+	public Pessoa addCidade(Long id, String cidade) {
+		return null;
+	}
+
+	@Override
+	public Pessoa delCidade(Long id, String cidade) {
+		return null;
+	}
+
+	@Override
+	public Pessoa addUf(Long id, String uf) {
+		return null;
+	}
+
+	@Override
+	public Pessoa delUf(Long id, String uf) {
+		return null;
+	}
+
 }
 
